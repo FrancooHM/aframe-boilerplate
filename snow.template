@@ -1,0 +1,5 @@
+<a-sphere position="0 10 0" radius="0.2" color="#ccc">
+   <a-animation attribute="material.opacity" dur="10000" begin="fade" to="0.5"></a-animation>
+   <a-animation attribute="radius" dur="10000" begin="fade" to="0.5"></a-animation>
+   <a-animation attribute="position" dur="10000" begin="moving" to="0 -3 0"></a-animation>
+</a-sphere>
